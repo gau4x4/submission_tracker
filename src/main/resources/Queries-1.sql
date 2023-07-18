@@ -8,7 +8,6 @@ create table lead_detail(
 	phone_number varchar(15),
     primary key(id)
 );
---- -drop table lead_detail;
 
 create table consultant_detail(
 	id varchar(32) NOT NULL,
